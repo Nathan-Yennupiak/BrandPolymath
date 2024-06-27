@@ -95,7 +95,7 @@ export default function Home() {
   return (
     <>
  <style jsx global>{`
-        h1, h2, h3, h4, h5, h6 {
+        h1, h2, h3, h4, h5, h6, .logo-text {
           font-family: ${syne.style.fontFamily}, sans-serif;
           font-weight: ${syne.style.fontWeight};
         }
@@ -115,7 +115,7 @@ export default function Home() {
       <meta name="theme-color" content="#ffffff"/>
         </Head>
 
-    <main >
+    <main>
 
       <header>
       <a href="#" className="logo-holder">
@@ -125,7 +125,7 @@ export default function Home() {
     <nav>
         <ul id="menu" className={menuOpen ? "active" : ""}>
         <li><a href="#" onClick={closeMobileMenu}>Home</a></li>
-            <li><a href="#skills" onClick={closeMobileMenu}>Skills</a></li>
+            <li><a href="#skills" onClick={closeMobileMenu} className="menu-item">Skills</a></li>
             <li><a href="#projects" onClick={closeMobileMenu}>Projects</a></li>
             <li><a href="#chatbot" onClick={closeMobileMenu}>Chatbot</a></li>
             <li><a href="https://wa.me/+233546101828" className="button" onClick={closeMobileMenu}>Contact me</a></li>
@@ -277,7 +277,7 @@ export default function Home() {
                 </figure>
                 <h3>BrandPolymath</h3>
                 Fullstack Developer
-                <div>Freelacer</div>
+                <div>Freelancer</div>
                 <p>Developed and maintained websites and web applications for various clients.</p>
             </article>
         </div>
@@ -364,6 +364,8 @@ export default function Home() {
         {/* <p>Scroll to Top</p> */}
     </a>
       </main>
+
+      <footer className="container foot"><p>Copyright ©2024 BrandPolymath</p></footer>
     </>
   );
 }
