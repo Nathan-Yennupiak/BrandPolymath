@@ -330,7 +330,7 @@ export default function Home() {
                 You can also download my resume here if you want to take a look
                 at it. I'm currently looking for new opportunities so if you
                 have a project you think I'd be a good fit for, please get in
-                touch!
+                touch...
               </p>
               <a href="/imgs/NATHAN YENNUPIAK ALI-CV.pdf" className="button black">
                 Download Resume
