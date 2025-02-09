@@ -393,7 +393,7 @@ export default function Home() {
                 </div>
                 <figcaption>University of Cape Coast-NSS</figcaption>
               </figure>
-              <h3>University of Cape Coast-NSS</h3>
+              <h3>University of Cape Coast</h3>
               Software Engineer
               <div>2021-2022</div>
               <p>

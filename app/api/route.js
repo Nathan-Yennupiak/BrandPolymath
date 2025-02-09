@@ -62,34 +62,39 @@ August 2017 - October 2021
 
 EXPERIENCE
 
-IT Training and Support Assistant (National Service)
-University of Cape Coast
-October 2021 - August 2022
-• Oversaw computer labs, ensuring proper usage and maintenance.
-• Managed attendance records and provided tutoring sessions for students.
-• Troubleshot computer issues and provided technical support.
-• Conducted training on Information Technology Skills, including Google Apps and Microsoft Office Suite.
+1.
+Software Engineer
+Amplified Communications	 	 	 	 	 	 
+2023 - Present
+•	Designed and developed the company's official website, ensuring speed, security, and a seamless user experience.
+•	Built full-stack applications for inventory management and client projects, handling front-end and back-end development.
+•	Designed and developed RESTful APIs, making it easy for frontend apps to communicate with the backend.
+•	Integrated third-party APIs and tools to enhance functionality and streamline business operations.
 
-Developer – Tender Hearts Foundation
-Los Angeles, USA
-Contract
-• Designed and developed the official website for the foundation.
-• Implemented updates and maintenance tasks for websites and plugins.
-• Ensured the accuracy and relevance of information on the website.
+2.
+Backend Developer
+Bit-Alpha Innovations	 	 	 	 	 	 
+2022-2023
+•	Built and maintained the backend for various web applications, ensuring they were fast and scalable.
+•	Designed and developed RESTful APIs, making it easy for frontend apps to communicate with the backend.
+•	Handled database management, optimizing queries and ensuring data integrity.
+•	Implemented secure authentication and authorization systems to protect user data.
+•	Worked closely with front-end developers to create seamless and efficient applications.
 
-Software Developer – Amplified Communications
-Ghana/Australia
-Seasonal
-• Designed and developed the official website for the Agency.
-• Regularly updated and maintained plugins to enhance website functionality.
-• Ensured the website contained up-to-date and accurate information.
-• Designed and developed dynamic web applications for clients.
+3.
+Software Engineer
+University of Cape Coast  	 
+October 2021 - August 2022 
+•	Tutored students on software development concepts, Microsoft Suite, and Google Workspace.
+•	Developed an automated script to efficiently enter results from Alison into an Excel sheet, significantly reducing manual effort and processing time.
+•	Collaborated with faculty and IT teams to enhance the security and performance of university portals.
+
 
 USEFUL LINKS
 
 LinkedIn: https://gh.linkedin.com/in/nathanyennupiak
 GitHub: https://github.com/Nathan-Yennupiak
-Portfolio: https://thepolymath.netlify.app/
+Portfolio: https://brandpolymath.netlify.app/
 
 SKILLS
 
@@ -125,5 +130,4 @@ HOBBIES
 
 RECOMMENDATION
 
-Google Developer Students Club
-Link to file`;
+Google Developer Students Club`;
