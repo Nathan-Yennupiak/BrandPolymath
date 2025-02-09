@@ -16,12 +16,12 @@
   --yellow-100: #fffbe6;
   --yellow-400: #ffda4b;
   --yellow-800: #8b6f00;
-  /* --blue: #0a61ae; */
-  --blue: #6747c7;
-  /* --blue-100: #e2f8ff; */
-  --blue-400: #61dafb;
-  --blue-100: #e6f7ff;
-  --blue-800: #0a61ae;
+  /* --purple: #0a61ae; */
+  --purple: #6747c7;
+  /* --purple-100: #e2f8ff; */
+  --purple-400: #61dafb;
+  --purple-100: #e6f7ff;
+  --purple-800: #0a61ae;
 }
 
 html, body {
@@ -51,7 +51,7 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--blue);
+  color: var(--purple);
 }
 
 a:hover {
@@ -135,7 +135,7 @@ header {
           color: var(--base);
           border-bottom: 2px solid transparent;
          &:hover {
-          border-bottom: 2px solid var(--blue);
+          border-bottom: 2px solid var(--purple);
             border-radius: 5px;
             text-decoration: none;
           }
@@ -207,7 +207,7 @@ header {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: var(--blue);
+  background-color: var(--purple);
   color: var(--base-100);
   border-radius: 5px;
   transition: ease 0.3s all;
@@ -218,7 +218,7 @@ header {
   }
 
   &.white {
-    background-color: var(--blue);
+    background-color: var(--purple);
     color: white;
     &:hover {
       background-color: var(--base-400);
@@ -266,9 +266,9 @@ h1 {
     flex-direction: column;
   }
 
-  .hero-blue {
+  .hero-purple {
     flex: 1;
-    background-color: var(--blue-100);
+    background-color: var(--purple-100);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -303,8 +303,8 @@ h1 {
 
     .social-links {
       display: flex;
-      border-top: 1px dashed var(--blue);
-      border-bottom: 1px dashed var(--blue);
+      border-top: 1px dashed var(--purple);
+      border-bottom: 1px dashed var(--purple);
       margin-top: 10px;
       padding: 10px 0;
       margin-bottom: 10px;
@@ -328,8 +328,8 @@ h1 {
   .hero-yellow {
     display: flex;
     flex: 1;
-    background-color: var(--blue);
-    border-radius: 5px;
+    background-color: var(--purple);
+    border-radius: 10px;
     padding: 10px 30px;
     justify-content: center;
     align-items: center;
@@ -337,8 +337,11 @@ h1 {
 
     img {
       /* margin-top: -50px; */
-      max-width: 100%;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
       margin-bottom: -10px;
+
     }
   }
 }
@@ -409,10 +412,10 @@ h3 {
 }
 
 .skills {
-  .holder-blue {
-    background-color: var(--blue-100);
+  .holder-purple {
+    background-color: var(--purple-100);
     border-radius: 10px;
-    box-shadow: 10px 10px var(--blue);
+    box-shadow: 10px 10px var(--purple);
     display: flex;
     overflow-x: hidden;
 
@@ -446,7 +449,7 @@ h3 {
           gap: 2px;
           /* justify-content: center; */
           align-items: center;
-          background-color: var(--blue);
+          background-color: var(--purple);
           padding: 10px;
           color: white;
           border-radius: 5px;
@@ -465,7 +468,7 @@ h3 {
       padding: 20px;
       flex: 1;
 
-      img{
+      img {
         border-radius: 10px;
       }
 
@@ -558,108 +561,37 @@ h3 {
   .bento-grid {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    height: 960px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: stretch; /* Ensure items align properly */
+  }
 
-    @media (max-width:1024px) {
-      grid-template-rows: repeat(8, 1fr);
+  .bento-item {
+    position: relative;
+    background-color: var(--base-100);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 250px; /* Ensures uniform height */
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease-in-out;
     }
 
-    @media (max-width:768px) {
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      height: auto;
-    }
-    
-    .bento-item {
-      padding: 30px;
-      background-color: var(--base-100);
-      border-radius: 5px;
-      position: relative;
-      overflow: hidden;
-      img {
-        position: absolute;
-          top: 0;
-          left: 0;
-          height: 100%;
-          object-fit: cover;
-          transition: ease 1s all;
-      }
-
-      &:hover {
-        img{
-          transform: scale(1.2);
-        }
-      }
-
-      @media (max-width:768px) {
-        height: 240px;
-      }
-    
-      
-      &:nth-child(1) {
-        grid-column: span 2;
-        grid-row: span 2;
-
-        @media (max-width) {
-          grid-column: span 2;
-          grid-row: span 2;
-        }
-      }
-      &:nth-child(2) {
-        grid-column: span 2;
-        grid-row: span 1;
-        @media (max-width) {
-          grid-column: span 3;
-          grid-row: span 2;
-        }
-      }
-      &:nth-child(3) {
-        grid-column: span 1;
-        grid-row: span 1;
-
-        @media (max-width) {
-          grid-column: span 3;
-          grid-row: span 2;
-        }
-      }
-      &:nth-child(4) {
-        grid-column: span 1;
-        grid-row: span 1;
-
-        @media (max-width) {
-          grid-column: span 2;
-          grid-row: span 4;
-        }
-      }
-      &:nth-child(5) {
-        grid-column: span 2;
-        grid-row: span 1;
-
-        @media (max-width) {
-          grid-column: span 3;
-          grid-row: span 2;
-        }
-      }
-      &:nth-child(6) {
-        grid-column: span 5;
-        grid-row: span 3;
-
-        @media (max-width) {
-          grid-column: span 5;
-          grid-row: span 2;
-        }
-      }
+    &:hover img {
+      transform: scale(1.1);
     }
   }
 }
 
+
+
+
 .chatbot {
-	.chatbot-blue {
+	.chatbot-purple {
     box-shadow: 10px 10px rgba(173, 216, 230, 0.432);
-		background-color: var(--blue-100);
+		background-color: var(--purple-100);
 		border-radius:10px;
 		padding:30px;
 		gap:30px;
@@ -705,13 +637,13 @@ h3 {
 							justify-content:flex-end;
 							flex-direction:row-reverse;
 							span {
-								background-color: var(--blue);
+								background-color: var(--purple);
                 color: white;
 							}
 						}
 
 						span {
-							background-color: var(--blue-100);
+							background-color: var(--purple-100);
 							width:50px;
 							height:50px;
               font-size: 14px;
@@ -807,4 +739,5 @@ h3 {
 
 
 #myBtn:hover {
-  background-color: var(--blue); /* Add a dark-grey background on hover */}
+  background-color: var(--purple); /* Add a dark-grey background on hover */}
+  

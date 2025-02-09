@@ -140,7 +140,7 @@ export default function Home() {
 
       
         <section className="hero container">
-          <div className="hero-blue">
+          <div className="hero-purple">
             <h1>
               <small>Hi I'm</small>
               Nathan Yennupiak
@@ -167,7 +167,7 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-yellow">
-            <img src="./imgs/nath.png" alt="Nathan Yennupiak" width="70%" />
+            <img src="./imgs/nathan-dev.jpg" alt="Nathan Yennupiak" width="70%" />
           </div>
         </section>
 
@@ -202,7 +202,7 @@ export default function Home() {
             Skills
           </h2>
 
-          <div className="holder-blue">
+          <div className="holder-purple">
             <div className="left-column">
               <h3>Frontend</h3>
               <ul>
@@ -224,7 +224,7 @@ export default function Home() {
             </div>
             <div className="right-column">
               {/* <h3>A bit about me</h3> */}
-              <img src="./imgs/nathan-dev.jpg" alt="Nathan Yennupiak" width="100%"/>
+              <img src="./imgs/fullstack.png" alt="Nathan Yennupiak" width="100%" height="80%" className="header-image"/>
               
             </div>
           </div>
@@ -288,27 +288,26 @@ export default function Home() {
             <small>
                 Previous
             </small>
-            Client Projects
+            Projects
         </h2>
         <div className="bento-grid">
-            <a href="https://tender-heart.org/" target="_blank" className="bento-item">
-                <img src="imgs/Tender-Hearts.jpg" alt="Workplace -1" width="100%"/>
+            <a href="https://mymoviesearchplus.netlify.app/" target="_blank" className="bento-item">
+                <img src="imgs/movieapp.png" alt="Movie App" width="100%"/>
             </a>
-            <a href="https://rhemmaconsult.com/" target="_blank" className="bento-item">
-                <img src="imgs/Rhemma Consult.jpg" alt="Workplace -1" width="100%"/>
+            <a href="https://dreamoracleai.netlify.app/" target="_blank" className="bento-item">
+                <img src="imgs/dreamapp.png" alt="Dream Oracle AI" width="100%"/>
             </a>
-            <a href="https://she4change.org/"  target="_blank" className="bento-item">
-                <img src="imgs/SHE4Change.jpg"  width="100%"/>
+            <a href="https://sumariza.netlify.app/"  target="_blank" className="bento-item">
+                <img src="imgs/summariza.png"  alt="Summariza" width="100%"/>
             </a>
-            <a href="https://amplifiedgh.com/" target="_blank" className="bento-item">
-                <img src="imgs/AMPLIFIED.jpg" alt="Workplace -1" width="100%"/>
+           
+            <a href="https://brandpolymath.netlify.app/"  target="_blank" className="bento-item">
+                <img src="imgs/portfolio.png"  alt="Portfolio" width="100%"/>
             </a>
-            <a href="https://tridalecleaning.com/" target="_blank" className="bento-item">
-                <img src="imgs/Tidalecleaning.jpg" alt="Workplace -1" width="100%"/>
-            </a>
-            <a href="https://opulentconstruction.org/" target="_blank" className="bento-item">
-                <img src="imgs/Opulent.jpg" alt="Workplace -1" width="100%"/>
-            </a>
+            
+            
+           
+            
         </div>
     </section>
 
@@ -317,7 +316,7 @@ export default function Home() {
             <small>Talk to me</small>
             Portfolio Chatbot
           </h2>
-          <div className="chatbot-blue">
+          <div className="chatbot-purple">
             <div className="chat-info">
               <h3>Azure AI Chatbot</h3>
               <p>
